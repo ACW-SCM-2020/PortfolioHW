@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -11,6 +12,9 @@ body {
 .header {
     padding-top: 15px;
     padding-bottom: 15px;
+    float: left;
+    width: 100%;
+    overflow: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #160142;
     color: #160142;
@@ -22,6 +26,8 @@ body {
     display: inline-block;
     padding-left: 40px;
     font-size: 40px;
+    border-width: 3px;
+    border-style: groove;
 }
 
 
@@ -48,6 +54,7 @@ body {
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
+
 }
 
 a {
@@ -56,19 +63,7 @@ a {
     cursor: crosshair;
 }
 
-#purp {
-    position: relative;
-    height: 200px;
-    width: 100%;
-}
 
-.purp_BL {
-    color: #C90AED;
-    background-color:#160142;
-    position: absolute;
-    text-align: end;
-    float: right;
-}
 
 .titlecontainer {
     position: relative;
@@ -76,27 +71,71 @@ a {
     color: white;
   }
 
-
-.leftcontainer {
-    position: left;
-    text-align: center;
-    float: left;
-    height: 100%;
-    width: 20%;
+  .titlecontainer div {
+    position: absolute;
+    color: #160142;
+    border-width: 3px;
+    border-style: groove;
+    border-color: white;
+    border-radius: 50%;
+    font-size: 34px;
+    bottom: 15px;
+    right: 16px;
+    background-color: #C90AED;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 15px;
   }
 
-.leftcontainer div {
-    color: #160142;
+.leftcontainer {
     margin-top: 20px;
-    margin-bottom: 100px;
-    border-bottom:#C90AED;
+    margin-bottom: 20px;
+    width: 20%;
+    float: left;
+    clear: both;
+    text-align: right;
+    font-size: 50px;
+    overflow: auto;
+    height: 100%;
+    max-height: relative;
+  }
+
+.rightcontainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    text-align: left;
+    overflow: auto;
+    height: 100%;
+    width: 78%;
+    padding-left: 2%;
     border-style: groove;
     border-bottom-width: 0px;
     border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 0px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rightcontainer div {
+    color: #160142;
+    margin-top: 20px;
+    margin-bottom: 100px;
     text-align: right;
-    font-size: 50px;
+    font-size: 12px;
     height: 33%;
     max-height: relative;
     clear: both;
@@ -107,23 +146,6 @@ a {
 
 
 
-
-
-
-
-.titlecontainer div {
-    position: absolute;
-    color: #160142;
-    border-width: 3px;
-    border-style: groove;
-    border-color: white;
-    font-size: 34px;
-    bottom: 15px;
-    right: 16px;
-    background-color: #C90AED;
-    padding-right: 20px;
-    padding-left: 90px;
-  }
 
 
 
