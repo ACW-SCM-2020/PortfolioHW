@@ -64,7 +64,7 @@ a {
 }
 
 
-
+    
 .titlecontainer {
     position: relative;
     text-align: center;
@@ -94,14 +94,30 @@ a {
     float: left;
     clear: both;
     text-align: right;
-    font-size: 50px;
-    overflow: auto;
+    font-size: 40px;
     height: 100%;
     max-height: relative;
-    padding-right: 1%;
+    padding-right: 2%;
   }
 
 .rightcontainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    text-align: left;
+    height: 100%;
+    width: 76%;
+    padding-left: 2%;
+    border-style: groove;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 3px;
+    border-right-width: 0px;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+#rightcontainer {
     margin-top: 20px;
     margin-bottom: 20px;
     float: right;
@@ -115,50 +131,77 @@ a {
     border-top-width: 0px;
     border-left-width: 3px;
     border-right-width: 0px;
-    margin-right: 2%;
   }
+
+.boxxy {
+    max-width: 80%;
+}
 
   .rightcontainer2  
   {
     position: relative;
+    float: left;
     overflow: auto;
+    padding-left: 1%;
+    font-size: 30px;
   }
 
   .rightcontainer2 div {    
       position: absolute;
-      right: 2px;
-      bottom: 2px;
+      right: 5%;
+      bottom: 5%;
+
+      background-color: red;
+      border-style: groove;
+      border-width: 5px;
+      font-size: 30px;
   }
 
 .rightcontainer3  
   {
-    float: right;
-    padding-left: 0%;
+    float: left;
     position: relative;
-    width: "100%"; 
-    margin-right: 0%;
-    clear: both;
+    width: "5%"; 
+    margin: 1%;
     overflow: auto;
+    font-size: 30px;
+
     
   } 
 
 .rightcontainer3 div {    
       position: absolute;
-      right: 2px;
-      bottom: 2px;
+      right: 5%;
+      bottom: 5%;
+      font-size: 30px;
+
+      background-color: red;
+      border-style: groove;
+      border-width: 5px;
   }
 
 .leftcontainer3  
   {
     float: left;
     overflow: auto;
-
+    position: relative;
+    width: "5%"; 
+    overflow: auto;
+    margin: 1%;
+    font-style: 70px;
   }
 
 .leftcontainer3 div {    
       position: absolute;
-      right: 2px;
-      bottom: 2px;
+      right: 5%;
+      bottom: 5%;
+      font-style: 30px;
+
+      background-color: red;
+      border-style: groove;
+      border-width: 5px;
+      font-size: 30px;
+
   }
 
 
