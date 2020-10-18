@@ -98,6 +98,7 @@ a {
     overflow: auto;
     height: 100%;
     max-height: relative;
+    padding-right: 1%;
   }
 
 .rightcontainer {
@@ -114,9 +115,51 @@ a {
     border-top-width: 0px;
     border-left-width: 3px;
     border-right-width: 0px;
+    margin-right: 2%;
   }
 
+  .rightcontainer2  
+  {
+    position: relative;
+    overflow: auto;
+  }
 
+  .rightcontainer2 div {    
+      position: absolute;
+      right: 2px;
+      bottom: 2px;
+  }
+
+.rightcontainer3  
+  {
+    float: right;
+    padding-left: 0%;
+    position: relative;
+    width: "100%"; 
+    margin-right: 0%;
+    clear: both;
+    overflow: auto;
+    
+  } 
+
+.rightcontainer3 div {    
+      position: absolute;
+      right: 2px;
+      bottom: 2px;
+  }
+
+.leftcontainer3  
+  {
+    float: left;
+    overflow: auto;
+
+  }
+
+.leftcontainer3 div {    
+      position: absolute;
+      right: 2px;
+      bottom: 2px;
+  }
 
 
 
