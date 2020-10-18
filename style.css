@@ -70,12 +70,48 @@ a {
     float: right;
 }
 
-.container {
+.titlecontainer {
     position: relative;
     text-align: center;
     color: white;
   }
-.bottom-right {
+
+
+.leftcontainer {
+    position: left;
+    text-align: center;
+    float: left;
+    height: 100%;
+    width: 20%;
+  }
+
+.leftcontainer div {
+    color: #160142;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border-bottom:#C90AED;
+    border-style: groove;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 3px;
+    text-align: right;
+    font-size: 50px;
+    height: 33%;
+    max-height: relative;
+    clear: both;
+  }
+
+
+
+
+
+
+
+
+
+
+.titlecontainer div {
     position: absolute;
     color: #160142;
     border-width: 3px;
@@ -90,9 +126,77 @@ a {
   }
 
 
-p {
-    font-size: 16px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hero {
     height: 20%;
