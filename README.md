@@ -1,0 +1,3 @@
+# PortfolioHW
+
+This is my Homework 2 assignment for our Full-stack flex coding bootcamp. Here, we were primarily learning how to apply floats and clears with multiple containers without being able to utilize a CSS framework. This page shows most of what was asked of us in the homework, minus the profile picture which I will add in a seperate submission. I had (and am still having) difficulties in applying the floats to be mobile perfectly responsive with the jpgs being used. However, I will say most of what has come through of this was a beneficial experience of how to use containers-within-containers.
